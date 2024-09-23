@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Work from './Work';
 import Contact from './Contact';
+import Members from './Members';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -24,8 +25,8 @@ const router = createBrowserRouter([
     element: <Work/>,
   },
   {
-    path: "/staff",
-    element: <App/>,
+    path: "/members",
+    element: <Members/>,
   },
   {
     path: "/contact",

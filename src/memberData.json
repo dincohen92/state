@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "firstName": "Din",
+    "lastName": "Cohen",
+    "imageURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t31.18172-8/17855160_10212637767641862_4838423311143702502_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=F9xTSN3aS_4Q7kNvgH69vaM&_nc_ht=scontent-sea1-1.xx&oh=00_AYDF7oi1mfcuWXdgHL3PbYPGGNmqNrqQF0-PoPKWRbCn1w&oe=67186745",
+    "location": "Seattle, WA",
+    "blurb": "Din grew up taking art classes, studied Industrial Design at SFSU, worked as a furniture designer, and eventually became a fullsatck webdeveloper before founding STATE Collective",
+    "favoriteProject": ""
+  },
+  {
+    "id": "2",
+    "firstName": "John",
+    "lastName": "Smith",
+    "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.circlesusa.org%2Fabout%2Fteam%2Fheadshot-placeholder-1%2F&psig=AOvVaw0GPlgOaFKAdhHZ89aDAbyl&ust=1727158309150000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiyg5602IgDFQAAAAAdAAAAABAE",
+    "location": "San Francisco, CA",
+    "blurb": "John joined the collective in 2024",
+    "favoriteProject": ""
+  }
+]
