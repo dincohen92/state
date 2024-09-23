@@ -7,9 +7,20 @@ function App() {
     <div className="App">
       <Header/>
       <body>
-        <h3>Welcome to STATE</h3>
-        <text>We are a non-profit design studio on a mission to empower aspiring designers</text>
-        <video src={ggb} autoPlay loop muted/>
+        <div className="CallToAction">
+          <h1>Welcome to STATE</h1>
+          <text>We are a non-profit design studio on a mission to empower aspiring designers</text>
+          <video src={ggb} autoPlay loop muted/>
+        </div>
+        <div className="work">
+          <h1>Projects</h1>
+        </div>
+        <div className="staff">
+          <h1>Meet Our Team</h1>
+        </div>
+        <div className="contact">
+          <h1>Get In Touch</h1>
+        </div>
       </body>
     </div>
   );
