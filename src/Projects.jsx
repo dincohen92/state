@@ -1,10 +1,10 @@
 import Header from "./components/Header";
 
-function Work() {
+function Projects() {
   return (
-    <div className="work-page">
+    <div className="projects-page">
       <Header/>
-      <h1>Recent Works</h1>
+      <h1>Recent Projects</h1>
       <div>
         {/* map projects here */}
       </div>
@@ -12,4 +12,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default Projects;

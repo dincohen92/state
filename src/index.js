@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Work from './Work';
+import Projects from './Projects';
 import Contact from './Contact';
 import Members from './Members';
 import reportWebVitals from './reportWebVitals';
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "/work",
-    element: <Work/>,
+    path: "/projects",
+    element: <Projects/>,
   },
   {
     path: "/members",
