@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Work from './Work';
+import Contact from './Contact';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/contact",
-    element: <App/>,
+    element: <Contact/>,
   }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
