@@ -1,0 +1,19 @@
+Project:
+[
+  {
+    "id": String,
+    "name": String,
+    "date": Date,
+    "discipline": String,
+    "description": String,
+    "images": Array
+  }
+]
+
+Images:
+[
+  {
+    "imageURL": String,
+    "description": String
+  }
+]

@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Project from "./components/Project";
 
 function Projects() {
   return (
@@ -6,7 +7,7 @@ function Projects() {
       <Header/>
       <h1>Recent Projects</h1>
       <div>
-        {/* map projects here */}
+        <Project/>
       </div>
     </div>
   );
