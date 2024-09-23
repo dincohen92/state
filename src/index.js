@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Members from './Members';
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <App/>,
+    element: <About/>,
   },
   {
     path: "/projects",

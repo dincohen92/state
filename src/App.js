@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './components/Header';
 import ggb from './assets/videos/ggb.mov'
 
