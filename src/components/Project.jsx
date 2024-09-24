@@ -1,8 +1,9 @@
 import "../index.css"
+import {Link} from 'react-router-dom';
 
 let projectData = require('../projectData.json');
 const projects = projectData.map((project) =>
-  <div  className="project-card">
+  <Link  to={project.id} className="project-card">
     <img src={project.images[0].imageURL} alt="project-thumbnail" className="project-thumbnail"/>
     <div className="project-card-details">
       <div>{project.name}</div>
@@ -10,7 +11,7 @@ const projects = projectData.map((project) =>
       <div>{project.discipline}</div>
       <div>{project.description}</div>
     </div>
-  </div>
+  </Link>
 );
 
 function Project(project) {

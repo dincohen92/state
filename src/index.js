@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import About from './About';
 import Projects from './Projects';
+import ProjectDetails from './ProjectDetails';
 import Contact from './Contact';
 import Members from './Members';
 import reportWebVitals from './reportWebVitals';
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects/>,
+  },
+  {
+    path: "/projects/:projectId",
+    element: <ProjectDetails/>,
   },
   {
     path: "/members",

@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className="projects-page">
       <Header/>
-      <h1>Recent Projects</h1>
+      <h1>RECENT PROJECTS</h1>
       <div>
         <Project/>
       </div>

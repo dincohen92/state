@@ -98,3 +98,12 @@ h3{
   height: 200px;
   border-radius: 25px;
 }
+
+.project-images{
+  display: flex;
+  flex-direction: row;
+}
+
+.project-image{
+  height: 50em;
+}

@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "project name",
+    "name": "project 1",
     "date": "mm/dd/yyyy",
     "discipline": "discipline",
     "description": "Project description",
@@ -22,7 +22,7 @@
   },
   {
     "id": "2",
-    "name": "project name",
+    "name": "project 2",
     "date": "mm/dd/yyyy",
     "discipline": "discipline",
     "description": "Project description",
