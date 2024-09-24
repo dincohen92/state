@@ -1,13 +1,13 @@
 h1{
   color: rgb(20, 20, 20);
-  font-size: 10em;
-  line-height: 0.9;
+  font-size: 8em;
+  line-height: 1;
   margin: 0;
 }
 
 h3{
   color: rgb(20, 20, 20);
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 1;
   margin: 0;
   margin-left: .25em;
@@ -19,6 +19,15 @@ h3{
   padding: 0;
 }
 
+.horizontal-divider {
+  border-top: 1px solid #000000;
+  margin: 30px 0px
+}
+
+.vertical-divider {
+  border-right: 1px solid black;
+}
+
 .header{
   margin: 0;
   padding: 25px;
@@ -28,6 +37,7 @@ h3{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 15px;
 }
 
 .logo{
@@ -45,22 +55,18 @@ h3{
   color: black
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #000000;
-  margin: 1em 0;
-  padding: 0;
+.call-to-action {
+  display: flex;
+  flex-direction: row;
+
 }
 
-.cta-bg-video{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
+.left-cta {
+  max-width: 50%;
+}
+
+.landing-page-projects{
+
 }
 
 .member-card {

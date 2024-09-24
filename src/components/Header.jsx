@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="header">
       <Nav/>
-      <hr/>
+      <hr className="horizontal-divider" style={{marginTop:"15px"}}/>
     </div>
   );
 }
