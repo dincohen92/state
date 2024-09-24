@@ -27,14 +27,8 @@ a{
   color: #000000;
 }
 
-.index {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .horizontal-divider {
-  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
   margin: 30px 0px
 }
 
@@ -42,9 +36,16 @@ a{
   border-right: 1px solid black;
 }
 
+.index {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header{
-  margin: 0;
-  padding: 25px;
+  margin: -100px 0px 0px 0px;
+  padding: 25px 25px 0px 25px;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .nav-bar{
@@ -52,6 +53,7 @@ a{
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 15px;
+  margin: 0px;
 }
 
 .logo{
@@ -67,6 +69,10 @@ a{
 .nav-bar-link{
   text-decoration: none;
   color: black
+}
+
+body{
+  margin: 75px 25px;
 }
 
 .call-to-action {
