@@ -1,5 +1,42 @@
-body {
+.app {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  margin: 0;
+  padding: 25px;
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo{
+  text-decoration: none;
+  color: black
+}
+
+.nav-bar-links{
+  display: flex;
+  gap: 25px;
+}
+
+.nav-bar-link{
+  text-decoration: none;
+  color: black
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000000;
+  margin: 1em 0;
+  padding: 0;
 }
 
 .member-card {

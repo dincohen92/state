@@ -3,13 +3,13 @@ import ggb from './assets/videos/ggb.mov'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header/>
       <body>
-        <div className="CallToAction">
+        <div className="call-to-action">
+          <video src={ggb} autoPlay loop muted className="cta-bg-video"/>
           <h1>Welcome to STATE</h1>
-          <text>We are a non-profit design studio on a mission to empower aspiring designers</text>
-          <video src={ggb} autoPlay loop muted/>
+          <h3>We are a non-profit design studio on a mission to empower aspiring designers</h3>
         </div>
         <div className="work">
           <h1>Projects</h1>
