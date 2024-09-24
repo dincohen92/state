@@ -4,11 +4,11 @@ function Contact() {
   return (
     <div className="contact-page">
       <Header/>
-      <h1>Contact Us</h1>
+      <h1>CONTACT US</h1>
       <div>
-        <text>Have any inquiries or want to join the team?</text>
-        <text>Send us a message at statedesigncollective@gmail.com</text>
-        <text>We would love to hear from you!</text>
+        <p>Have any inquiries or want to join the team?<br/>
+        Send us a message at <a href="mailto:statedesigncollective@gmail.com">statedesigncollective@gmail.com</a><br/>
+        We would love to hear from you!</p>
       </div>
     </div>
   );
