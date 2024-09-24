@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about-page">
       <Header/>
-      <h1>About STATE DESIGN COLLECTIVE</h1>
+      <h1>About the STATE DESIGN COLLECTIVE</h1>
       <h3>Our Story</h3>
       <p>STATE was founded in 2024 to help the growing community of designers develope skills and contribute to meaningful projects</p>
       <h3>Our Mission</h3>
