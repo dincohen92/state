@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/statedesigncollective.com/static/css/main.54b7045b.css",
-    "main.js": "/statedesigncollective.com/static/js/main.185e2bb3.js",
-    "static/js/453.388e41ab.chunk.js": "/statedesigncollective.com/static/js/453.388e41ab.chunk.js",
-    "index.html": "/statedesigncollective.com/index.html",
-    "main.54b7045b.css.map": "/statedesigncollective.com/static/css/main.54b7045b.css.map",
-    "main.185e2bb3.js.map": "/statedesigncollective.com/static/js/main.185e2bb3.js.map",
-    "453.388e41ab.chunk.js.map": "/statedesigncollective.com/static/js/453.388e41ab.chunk.js.map"
+    "main.css": "/static/css/main.54b7045b.css",
+    "main.js": "/static/js/main.498044b0.js",
+    "static/js/453.388e41ab.chunk.js": "/static/js/453.388e41ab.chunk.js",
+    "index.html": "/index.html",
+    "main.54b7045b.css.map": "/static/css/main.54b7045b.css.map",
+    "main.498044b0.js.map": "/static/js/main.498044b0.js.map",
+    "453.388e41ab.chunk.js.map": "/static/js/453.388e41ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54b7045b.css",
-    "static/js/main.185e2bb3.js"
+    "static/js/main.498044b0.js"
   ]
 }
