@@ -7,14 +7,5 @@
     "location": "Seattle, WA",
     "blurb": "Din grew up taking art classes, studied Industrial Design at SFSU, worked as a furniture designer, and eventually became a fullsatck webdeveloper before founding STATE Collective",
     "favoriteProject": ""
-  },
-  {
-    "id": "2",
-    "firstName": "John",
-    "lastName": "Smith",
-    "imageURL": "https://campaign.rand.org/wp-content/uploads/2020/04/placeholder-headshot.jpg",
-    "location": "San Francisco, CA",
-    "blurb": "John joined the collective in 2024",
-    "favoriteProject": ""
   }
 ]
