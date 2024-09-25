@@ -5,15 +5,19 @@ let projectData = require('../projectData.json');
 let projects = <p>Coming Soon!</p>
 if (projectData.length){
   projects = projectData.map((project) =>
-    <Link  to={project.id} className="project-card">
-      <img src={project.images[0].imageURL} alt="project-thumbnail" className="project-thumbnail"/>
-      <div className="project-card-details">
-        <div>{project.name}</div>
-        <div>{project.date}</div>
-        <div>{project.discipline}</div>
-        <div>{project.description}</div>
-      </div>
-    </Link>
+    <div className="project-card- container">
+      <Link  to={project.id} className="project-card">
+        <img src={project.images[0].imageURL} alt="project-thumbnail" className="project-thumbnail"/>
+        <div className="project-card-details">
+          <div className="project-card-details-header">
+            <h3>{project.name}</h3>
+            <p>{project.date} | {project.discipline}</p>
+          </div>
+          <p className="project-card-details-description">{project.description}</p>
+        </div>
+      </Link>
+      <hr className="horizontal-divider"/>
+    </div>
   );
 }
 

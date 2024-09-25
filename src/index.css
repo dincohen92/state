@@ -101,18 +101,24 @@ body{
 }
 
 .project-card {
-  background-color:grey;
-  width:50%;
-  height: auto;
+  width:70%;
+  height: 500px;
   margin: 5%;
-  border-radius: 25px;
   display: flex;
   flex-direction: row;
+  text-decoration: none;
 }
 
 .project-thumbnail{
-  height: 200px;
-  border-radius: 25px;
+  max-height: 100%;
+  margin-right: 25px;
+}
+
+.project-card-details-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
 
 .project-images{
