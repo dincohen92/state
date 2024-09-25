@@ -2,7 +2,7 @@
   "name": "state-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "statedesigncollective.com",
+  "homepage": "https://statedesigncollective.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^15.0.6",
