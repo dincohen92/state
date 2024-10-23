@@ -1,22 +1,22 @@
 export default function Home() {
   return (
-    <div className="app">
-      <div className="call-to-action">
-        <div className="left-cta">
-          <h3>Welcome to the</h3>
-          <h1>STATE DESIGN COLLECTIVE</h1>
-          <h3>We are a non-profit design studio on a mission to empower aspiring designers</h3>
+    <div>
+      <div>
+        <div>
+          <h3 className="text-4xl">Welcome to the</h3>
+          <h1 className="text-8xl">STATE DESIGN COLLECTIVE</h1>
+          <h3 className="text-lg">We are a non-profit design studio on a mission to empower aspiring designers</h3>
         </div>
+        <hr className="mt-3 mb-5"/>
       </div>
-      <hr className="horizontal-divider"/>
-      <div className="landing-page-projects">
-        <h1>PROJECTS</h1>
+      <div>
+        <h1 className="text-4xl">PROJECTS</h1>
         <h3>Coming soon!</h3>
+        <hr className="mt-3 mb-5"/>
       </div>
-      <hr className="horizontal-divider"/>
-      <div className="landing-page-contact">
-        <h1>CONTACT US</h1>
-        <h3>Interested in working with us? Message at statedesigncollective@gmail.com!</h3>
+      <div>
+        <h1 className="text-4xl">CONTACT US</h1>
+        <h3>Interested in working with us? Message at <a href="mailto:statedesigncollective@gmail.com">statedesigncollective@gmail.com</a></h3>
       </div>
   </div>
   );

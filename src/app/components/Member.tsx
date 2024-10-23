@@ -7,21 +7,40 @@ type Member = {
   lastName: string,
   imageURL: string,
   location: string,
+  roles: string[],
   blurb: string,
-  favoriteProject: string
+  socials: Socials[]
 };
+
+type Socials = {
+  platform: string,
+  link: string
+}
 
 // const memberData = require('../memberData.json');
 const members = memberData.map((member: Member) =>
-  <div key={"member"} className="member-card">
-    <Image src={member.imageURL} alt="headshot" className="member-headshot" width={200} height={200}/>
-    <div className="member-card-details">
-      <div className="member-card-details-header">
-        <h3>{member.firstName} {member.lastName}</h3>
+  <div key={"member"} className="flex gap-5 mt-3">
+    <Image src={member.imageURL} alt="headshot" width={300} height={300}/>
+    <div className="max-w-96 flex flex-col gap-3">
+      <div className="flex gap-5 align-bottom">
+        <h3 className="text-4xl">{member.firstName} {member.lastName}</h3>
         <p>{member.location}</p>
       </div>
+      <div  className="flex gap-5">
+        {member.roles.map((role) =>
+          <div key={"role"}>
+            {role}
+          </div>
+        )}
+      </div>
       <p>{member.blurb}</p>
-      <p>Favorite Project: {member.favoriteProject}</p>
+      <div  className="flex gap-5">
+        {member.socials.map((social) =>
+          <a key={"member"} href={social.link}>
+            <Image src={"/socials/" + social.platform + ".png"} alt="socials-icon" width={50} height={50}></Image>
+          </a>
+        )}
+      </div>
     </div>
   </div>
 );

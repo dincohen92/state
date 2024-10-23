@@ -5,7 +5,21 @@
     "lastName": "Cohen",
     "imageURL": "/headshots/DinCohen.png",
     "location": "Seattle, WA",
+    "roles": ["Founder","Project Manager","Industrial Designer", "Product Designer"],
     "blurb": "Din grew up taking art classes, studied Industrial Design at SFSU, worked as a furniture designer, and eventually became a fullsatck web developer before starting the STATE Design Collective",
-    "favoriteProject": ""
+    "socials": [
+      {
+        "platform": "website",
+        "link": "http://dinco.design"
+      },
+      {
+        "platform": "linkedin",
+        "link": "https://www.linkedin.com/in/dincohen/"
+      },
+      {
+        "platform": "instagram",
+        "link": "https://www.instagram.com/dinco.design/"
+      }
+    ]
   }
 ]
