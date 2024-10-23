@@ -20,8 +20,8 @@ type Socials = {
 // const memberData = require('../memberData.json');
 const members = memberData.map((member: Member) =>
   <div key={"member"} className="flex gap-5 mt-3">
-    <Image src={member.imageURL} alt="headshot" width={300} height={300}/>
-    <div className="max-w-96 flex flex-col gap-3">
+    <Image src={`/headshots/${member.imageURL}`} alt="headshot" width={300} height={300}/>
+    <div className="max-w-96 flex flex-col gap-5">
       <div className="flex gap-5 align-bottom">
         <h3 className="text-4xl">{member.firstName} {member.lastName}</h3>
         <p>{member.location}</p>
@@ -37,7 +37,7 @@ const members = memberData.map((member: Member) =>
       <div  className="flex gap-5">
         {member.socials.map((social) =>
           <a key={"member"} href={social.link}>
-            <Image src={"/socials/" + social.platform + ".png"} alt="socials-icon" width={50} height={50}></Image>
+            <Image src={`/icons/${social.platform}.png`} alt="socials-icon" width={50} height={50}></Image>
           </a>
         )}
       </div>
