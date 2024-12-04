@@ -1,2 +1,67 @@
 [
+  {
+    "id": "1",
+    "name": "Morro",
+    "date": "12/01/2024",
+    "discipline": "Industrial Design",
+    "description": "Our Entry for the 2024 Andreu World Cicular Design Challenge",
+    "designers": [
+      {
+        "name": "Din Cohen",
+        "role": "industrial designer"
+      },
+      {
+        "name": "Aaron Urban",
+        "role": "industrial designer"
+      },
+      {
+        "name": "Clinton Sienega",
+        "role": "industrial designer"
+      },
+      {
+        "name": "Tyler Browne",
+        "role": "industrial designer"
+      },
+      {
+        "name": "Jessa Laboissonniere",
+        "role": "industrial designer"
+      }
+    ],
+    "images": [
+      {
+        "imageURL": "/images/morro/artRender.png",
+        "caption": "Morro in meuseum space"
+      },
+      {
+        "imageURL": "/images/morro/frontPhoto.png",
+        "caption": "Front view"
+      },
+      {
+        "imageURL": "/images/morro/frontRender.png",
+        "caption": "Front view"
+      },
+      {
+        "imageURL": "/images/morro/lazerCut.png",
+        "caption": "Lazer cut parts"
+      },
+      {
+        "imageURL": "/images/morro/leftPhoto.png",
+        "caption": "Left side view"
+      },
+      {
+        "imageURL": "/images/morro/morroBay.jpg",
+        "caption": "Morrow Bay inspiration"
+      },
+      {
+        "imageURL": "/images/morro/othroPhoto.png",
+        "caption": "Angle view"
+      },
+      {
+        "imageURL": "/images/morro/sketches.png",
+        "caption": "Ideation sketches"
+      }
+    ],
+    "coverImage": "/images/morro/artRender.png",
+    "tags" : ["industrial", "product", "design"]
+  }
 ]
