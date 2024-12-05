@@ -6,7 +6,7 @@ import projectData from "../../projectData.json"
 import {Project, Images} from "../../typeDefinitions"
 
 function ProjectDetails() {
-  const params = useParams<{ tag: string; item: string; id:string}>()
+  const params = useParams<{id:string}>()
   const project : Project = projectData.find(proj => proj.id === params.id)
 
   const images = project.images.map((image: Images) =>
