@@ -4,7 +4,7 @@ export interface Project  {
   date: string,
   discipline: string,
   description: string,
-  designers: Designers[]
+  designers: Designer["id"][]
   images: Images[]
   coverImage: string
   tags: string[]
@@ -14,7 +14,18 @@ export interface Images {
   caption: string
 }
 
-export interface Designers {
-  name: string,
-  role: string
+export type Designer = {
+  id: string,
+  firstName: string,
+  lastName: string,
+  imageURL: string,
+  location: string,
+  roles: string[],
+  blurb: string,
+  socials: Socials[]
+};
+
+export type Socials = {
+  platform: string,
+  link: string
 }

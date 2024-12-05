@@ -9,7 +9,7 @@ function Nav() {
       <div className="flex gap-4">
         <Link href="/projects" className="nav-bar-link">PROJECTS</Link>
         <Link href="/about" className="nav-bar-link">ABOUT US</Link>
-        <Link href="/team" className="nav-bar-link">OUR TEAM</Link>
+        <Link href="/designers" className="nav-bar-link">DESIGNERS</Link>
         <Link href="/contact" className="nav-bar-link">CONTACT</Link>
       </div>
     </div>
