@@ -9,7 +9,7 @@ function About() {
         By providing mentorship, resources, and opportunities to work on real-world projects, STATE empowers designers to develop their skills, create meaningful work, and build professional portfolio-worthy products.
         Our mission is to foster innovation, creativity, and professional development while contributing to the new generation of designers.</p>
       <h3 className="text-4xl">Our Goals</h3>
-      <lu>
+      <ul>
         <li>
           <b>Establish a Hybrid Platform</b> | Build both online and offline spaces where designers across various fields (industrial, graphic, product, etc.) can collaborate, share ideas, and work on real-world projects.
         </li>
@@ -22,7 +22,7 @@ function About() {
         <li>
           <b>Sustainable Funding</b> | Develop a non-profit income stream to sustain the community, grow resources, and support new projects.
         </li>
-      </lu>
+      </ul>
     </div>
   );
 }
