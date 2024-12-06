@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import designerData from "../designerData.json"
-
 import { Designer as DesignerType } from "../typeDefinitions";
-console.log(designerData)
+
 const designers : DesignerType[] = designerData.map((designer: DesignerType) =>
   <Link href={`/designers/${designer.id}`} key={"designer"} className="flex gap-5 mt-3">
     <Image src={`/headshots/${designer.imageURL}`} alt="headshot" width={200} height={200}/>

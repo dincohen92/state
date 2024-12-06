@@ -14,7 +14,7 @@ export interface Images {
   caption: string
 }
 
-export type Designer = {
+export interface Designer {
   id: string,
   firstName: string,
   lastName: string,
@@ -25,7 +25,7 @@ export type Designer = {
   socials: Socials[]
 };
 
-export type Socials = {
+export interface Socials {
   platform: string,
   link: string
 }
