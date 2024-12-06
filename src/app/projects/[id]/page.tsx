@@ -8,7 +8,7 @@ import {Project, Images, Designer} from "../../typeDefinitions"
 
 function ProjectDetails() {
   const params = useParams<{id:string}>()
-  const project : Project = projectData.find(proj => proj.id === params.id)
+  const project = projectData.find(proj => proj.id === params.id)
 
   const images = project.images.map((image: Images) =>
     <Image key={image.caption} src={image.imageURL} alt="project-image" className="" height={300} width={300}></Image>

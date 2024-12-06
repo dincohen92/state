@@ -6,7 +6,7 @@ import {Designer} from "../../typeDefinitions"
 
 function DesignerDetails() {
   const params = useParams<{id:string}>()
-  const designer : Designer = designerData.find(proj => proj.id === params.id)
+  const designer = designerData.find(proj => proj.id === params.id)
 
   return (
     <div className="flex gap-5 mt-3">
