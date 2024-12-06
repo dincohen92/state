@@ -4,7 +4,6 @@ import designerData from "../designerData.json"
 
 import { Designer } from "../typeDefinitions";
 
-// const designerData = require('../designerData.json');
 const designers : Designer[] = designerData.map((designer: Designer) =>
   <Link href={`/designers/${designer.id}`} key={"designer"} className="flex gap-5 mt-3">
     <Image src={`/headshots/${designer.imageURL}`} alt="headshot" width={200} height={200}/>
