@@ -2,7 +2,6 @@
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import Header from "../../components/Header";
 import projectData from "../../projectData.json"
 import designerData from "../../designerData.json"
 import {Project, Images, Designer} from "../../typeDefinitions"
@@ -27,7 +26,6 @@ function ProjectDetails() {
 
   return (
     <div  className="project-details-page">
-      <Header/>
       <div className="flex flex-row flex-wrap gap-3 justify-center px-3 md:px-0">
         {images}
       </div>
