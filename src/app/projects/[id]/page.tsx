@@ -4,11 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import projectData from "../../projectData.json"
 import designerData from "../../designerData.json"
-import {Project, Images, Designer} from "../../typeDefinitions"
 
 function ProjectDetails() {
   const params = useParams<{id:string}>()
-  const project = projectData.find(proj => proj.id === params.id)
+  const project : Project = projectData.find(proj => proj.id === params.id)
 
   const images = project.images.map((image: Images) =>
     <Image key={image.caption} src={image.imageURL} alt="project-image" className="" height={300} width={300}></Image>

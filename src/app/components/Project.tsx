@@ -2,8 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import projectData from "../projectData.json"
 
-import {Project} from "../typeDefinitions"
-
 function ProjectPage() {
   if (projectData.length){
     return (

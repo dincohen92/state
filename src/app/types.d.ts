@@ -1,20 +1,21 @@
-export interface Project  {
+interface Project  {
   id: string,
   name: string,
   date: string,
   discipline: string,
   description: string,
-  designers: Designer["id"][]
+  designers: string[]
   images: Images[]
   coverImage: string
   tags: string[]
 }
-export interface Images {
+
+interface Images {
   imageURL: string,
   caption: string
 }
 
-export interface Designer {
+interface Designer {
   id: string,
   firstName: string,
   lastName: string,
@@ -25,7 +26,7 @@ export interface Designer {
   socials: Socials[]
 };
 
-export interface Socials {
+interface Socials {
   platform: string,
   link: string
 }
