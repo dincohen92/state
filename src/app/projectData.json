@@ -5,28 +5,7 @@
     "date": "12/01/2024",
     "discipline": "Industrial Design",
     "description": "Our Entry for the 2024 Andreu World Cicular Design Challenge",
-    "designers": [
-      {
-        "name": "Din Cohen",
-        "role": "industrial designer"
-      },
-      {
-        "name": "Aaron Urban",
-        "role": "industrial designer"
-      },
-      {
-        "name": "Clinton Sienega",
-        "role": "industrial designer"
-      },
-      {
-        "name": "Tyler Browne",
-        "role": "industrial designer"
-      },
-      {
-        "name": "Jessa Laboissonniere",
-        "role": "industrial designer"
-      }
-    ],
+    "designers": ["1"],
     "images": [
       {
         "imageURL": "/images/morro/artRender.png",

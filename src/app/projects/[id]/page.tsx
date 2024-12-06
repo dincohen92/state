@@ -1,9 +1,11 @@
 'use client'
 import { useParams } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import Header from "../../components/Header";
 import projectData from "../../projectData.json"
-import {Project, Images} from "../../typeDefinitions"
+import designerData from "../../designerData.json"
+import {Project, Images, Designer} from "../../typeDefinitions"
 
 function ProjectDetails() {
   const params = useParams<{id:string}>()
@@ -12,6 +14,16 @@ function ProjectDetails() {
   const images = project.images.map((image: Images) =>
     <Image key={image.caption} src={image.imageURL} alt="project-image" className="" height={300} width={300}></Image>
   );
+
+  const designers = project.designers.map((designerId) => {
+    const designer : Designer = designerData.find(des => des.id === designerId)
+    return (
+      <Link href={`/designers/${designer.id}`} key="designer">
+        <div>{designer.firstName} {designer.lastName}</div>
+        <div>{designer.roles}</div>
+      </Link>
+    )
+  })
 
   return (
     <div  className="project-details-page">
@@ -24,6 +36,7 @@ function ProjectDetails() {
         <div>{project.date}</div>
         <div>{project.discipline}</div>
         <div>{project.description}</div>
+        <div>{designers}</div>
       </div>
     </div>
   );
